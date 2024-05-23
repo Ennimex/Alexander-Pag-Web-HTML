@@ -1,0 +1,110 @@
+
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
+/* Estilos específicos */
+#Titulo1 {
+    background-color: black;
+    color: aliceblue;
+    text-align: center;
+    padding: 40px;
+    
+}
+
+nav ul {
+    background-color: darkred;
+    width: 100%;
+    list-style-type: none;
+    text-align: center;
+}
+nav li{
+    display: inline-flex;
+}
+nav a{
+    text-decoration: none;
+    color: thistle;
+    padding: 10px;
+    width: 150%;
+}
+nav li:hover {
+background-color: azure;
+}
+
+
+
+
+
+h2 {
+    font-size: 2em;
+    margin: 10px 0;
+    text-align: center;
+}
+
+h3 {
+    font-size: 1.5em;
+    margin: 10px 0;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+img {
+    display: block;
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+}
+.Contenido{
+    display: flex;
+    margin: 60px;
+}
+.Articulos{
+    width: 80%;
+    border-right: 3px solid;
+}
+
+
+/* Estilos para la tabla */
+table {
+    width: 20%;
+    margin: 5px auto;
+    border-collapse: collapse;
+    
+}
+.Secciones{
+    display: flex;
+    align-items: center;
+}
+
+table th, table td {
+    padding: 10px;
+    text-align: center;
+    padding: 40px;
+}
+.menu_secundario{
+    width: 20%;
+    margin-top: 60px;
+}
+.menu_secundario a {
+display: block;
+text-align: center;
+color: black;
+margin-bottom:2px ;
+}
+
+table th {
+    background-color: #9e2222c5;
+    color: rgb(18, 10, 26);
+}
+
+
+
